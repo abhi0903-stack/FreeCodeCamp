@@ -1,0 +1,182 @@
+body {
+  background-image:
+    linear-gradient(115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)),
+    url("https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/POTUS_Code.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* Titles Section */
+
+#title {
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+  text-align: center;
+}
+
+#description {
+  color: white;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.clue
+{
+  font-size: 0.975rem;
+}
+
+
+/* Form Container */
+
+.container {
+  background: rgba(27, 27, 50, 0.8);
+  display: block;
+  padding: 2.5rem;
+  border-radius: 0.25rem;
+  margin: auto;
+  width: 40%;
+  opacity: 0.98;
+}
+
+/* Labels */
+.label-element {
+  color: white;
+  font-size: 1.235rem;
+  text-align: left;
+  margin: 1.5rem auto 0.5rem;
+  padding: 2rem 0.5rem 2rem;
+
+}
+
+/* Label Elements */
+.main-element {
+  font-size: 1.125rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  margin: 0.5rem auto 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Recommendation Element */
+.recommend-question {
+  color: white;
+  font-size: 1.125rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+
+/* Roles Question and Favourite Feature Question */
+
+.select-input{
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem auto 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+/* Input Radio */
+
+.input-radio
+{
+  margin-bottom: 1.5rem;
+}
+
+/* Radio Labels */
+
+.radio-label {
+  color: white;
+  font-size: 1.125rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  /* padding: 0.5rem; */
+}
+
+/* Improve Question */
+
+.improve-question
+{
+  color: white;
+  font-size: 1.125rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+}
+
+/* Checkbox Labels */
+
+.checkbox-label
+{
+  color: white;
+  font-size: 1.125rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+/* Checkbox Elements */
+.input-checkbox
+{
+  margin-bottom: 1.2rem;
+}
+
+/* Comments Section */
+
+.comment-text
+{
+  color: white;
+  font-size: 1.125rem;
+  text-align: left;
+  margin-top: 1.7rem;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+}
+
+.comment-box
+{
+  width: 100%;
+  font-size: 1.5rem;
+  text-indent: 0;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 120px;
+}
+
+/* Submit Button */
+
+.submit-btn
+{
+  display: block;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  width: 100%;
+  background-color: #28DF99;
+  color: white;
+  font-size: 1.125rem;
+  border-radius: 2px;
+}
+
+/* Responsive Design */
+
+@media screen and (min-width: 480px)
+{
+  .survey-form
+  {
+    padding: 2.5rem;
+  }
+}
